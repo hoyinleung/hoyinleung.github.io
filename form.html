@@ -24,12 +24,6 @@
             method: "post",
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded"
-            },
-
-            //make sure to serialize your JSON body
-            body: JSON.stringify({
-                name: e.target.name.value,
-                email: e.target.email.value
             })
             })
             .then( (res) => { 
