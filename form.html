@@ -21,9 +21,10 @@
             console.log(e.target.email.value)
             
             fetch("http://localhost:3001/subscribe", {
-            method: "post",
-            headers: {
-                "Content-Type": "application/x-www-form-urlencoded"
+                method: "post",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                }
             })
             })
             .then( (res) => { 
